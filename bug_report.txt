@@ -1,0 +1,17 @@
+Date: 12.04.2021
+Title: www.example.com orders duplicated after request second verification code for paying
+Status: New
+Priority: High
+Severity: Major
+Author: Dmitry Krylov
+Assigned_to: DeveloperID001
+Enviroment: Mozilla Firefox x64 94.0.2
+Description: When you created order , and confirm paying if you request second verification code, your create second same order instead continue your first
+Step_to_reproduce:
+                       1)Login on site www.example.com
+                       2)Add anything in card
+                       3)Confirm order
+                       4)Request verification code
+                       5)Request verification code second time
+ Expected_Result: You receive second verification code, and after enter it you will finish your current order
+ Actual_Result: You receive second verification code , and after enter it you will finish second same order, and first one will be unfinished, all codes and discount will dissappeared
